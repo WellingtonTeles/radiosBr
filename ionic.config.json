@@ -1,0 +1,7 @@
+{
+  "name": "radiosBr",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
