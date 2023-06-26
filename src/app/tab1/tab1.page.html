@@ -1,17 +1,42 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-list-header>
+      <ion-label>About Me</ion-label>
+    </ion-list-header>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+  <ion-card>
+    <ion-card-title>
+      My name is Wellington
+    </ion-card-title>
+    <ion-card-content>
+      I'm Angular Frontend Engineer and I've been working with Ionic for few years.
+      Well, that's is mobile app developed with ionic 7.
+      In this case I used "NativeAudio" to play songs of online radios.
+    </ion-card-content>
+    <ion-card-content>
+      <img src="../../assets/CovverLetter.png">
+    </ion-card-content>
+
+    <ion-card-content class="wrapper">
+      <ion-buttons slot="secondary" class="icon whatsapp">
+        <span class="tooltip">WhatsApp</span>
+        <span><a href="https://wa.me/5511989846740" _blank><ion-icon name="logo-whatsapp"></ion-icon></a></span>
+      </ion-buttons>
+      <ion-buttons slot="secondary" class="icon linkedin">
+        <span class="tooltip">Linkedin</span>
+        <span><a href="https://www.linkedin.com/in/wellington-teles-77422830" _blank><ion-icon name="logo-linkedin"></ion-icon></a></span>
+      </ion-buttons>
+      <ion-buttons slot="secondary" class="icon instagram">
+        <span class="tooltip">Instagram</span>
+        <span><a href="https://www.instagram.com/wtecnologiabr/" _blank><ion-icon name="logo-instagram"></ion-icon></a></span>
+      </ion-buttons>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
+

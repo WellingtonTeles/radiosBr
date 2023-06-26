@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">radiosBr</string>
+    <string name="title_activity_main">radiosBr</string>
+    <string name="package_name">net.wtecnologia.radioBr</string>
+    <string name="custom_url_scheme">net.wtecnologia.radioBr</string>
+</resources>
